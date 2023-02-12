@@ -6,15 +6,18 @@ import {RiGamepadLine,RiNotification2Fill} from 'react-icons/ri'
 import {CgMenuGridR} from 'react-icons/cg'
 import {TbBrandMessenger} from 'react-icons/tb'
 import {RxAvatar} from 'react-icons/rx'
+import Link from 'next/link'
 
 
 
 const Header = () => {
   return (
-    <div className='flex justify-between  p-4 shadow-md shadow-white border-white '>
+    <div className='flex justify-between   p-4 shadow-md shadow-white border-white '>
         {/* left */}
              <div className='flex '>
-                <BsFacebook className='text-blue-500   mt-1' size={30}/>
+                <Link href='/'>
+                <BsFacebook className='text-blue-500  cursor-pointer  mt-1' size={30}/>
+                </Link>
                 <form>
 <div className='flex bg-[rgb(58,59,60)] h-10 md:w-60 rounded-full p-3 ml-3 mb-2 w-10' >
 
@@ -33,11 +36,11 @@ const Header = () => {
         <RiGamepadLine size={30} className='text-gray-500 hover:bg-gray-700 w-14 hover:h-10'/>
             </div>
       {/* right */}
-      <div className='w-44 flex justify-evenly'>
+      <div className='w-44 flex justify-end'>
         <CgMenuGridR size={40} className='text-white hover:text-blue-500 cursor-pointer rounded-full p-2'/>
         <TbBrandMessenger size={40} className='text-white hover:text-blue-500 cursor-pointer rounded-full p-2'/>
         <RiNotification2Fill size={40} className='text-white p-2 bg-gray-500 hover:text-blue-500 rounded-full cursor-pointer'/>
-        <RxAvatar size={40} className='text-white hover:text-blue-500 bg-gray-500 cursor-pointer rounded-full p-2' />
+        <RxAvatar size={40} className='text-white hover:text-blue-500 bg-gray-500 cursor-pointer rounded-full p-2 ml-1' />
         </div>
     </div>
   )
