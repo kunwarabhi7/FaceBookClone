@@ -34,10 +34,10 @@ const Header = () => {
             </div>
       {/* right */}
       <div className='w-44 flex justify-evenly'>
-        <CgMenuGridR size={40} className='text-white hover:text-blue-500 cursor-pointer rounded-full p-1'/>
-        <TbBrandMessenger size={40} className='text-white hover:text-blue-500 cursor-pointer rounded-full p-1'/>
-        <RiNotification2Fill size={40} className='text-white p-1 bg-gray-500 hover:text-blue-500 rounded-full cursor-pointer'/>
-        <RxAvatar size={40} className='text-white hover:text-blue-500 bg-gray-500 cursor-pointer rounded-full p-1' />
+        <CgMenuGridR size={40} className='text-white hover:text-blue-500 cursor-pointer rounded-full p-2'/>
+        <TbBrandMessenger size={40} className='text-white hover:text-blue-500 cursor-pointer rounded-full p-2'/>
+        <RiNotification2Fill size={40} className='text-white p-2 bg-gray-500 hover:text-blue-500 rounded-full cursor-pointer'/>
+        <RxAvatar size={40} className='text-white hover:text-blue-500 bg-gray-500 cursor-pointer rounded-full p-2' />
         </div>
     </div>
   )
