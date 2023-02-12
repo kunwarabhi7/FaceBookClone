@@ -11,7 +11,7 @@ import {RxAvatar} from 'react-icons/rx'
 
 const Header = () => {
   return (
-    <div className='flex justify-between p-4  '>
+    <div className='flex justify-between p-4 border border-x-0 border-t-0 border-white '>
         {/* left */}
              <div className='flex'>
                 <BsFacebook className='text-blue-500   mt-1' size={30}/>
@@ -25,7 +25,7 @@ const Header = () => {
                 </form>
              </div>
              {/* center */}
-      <div className=' flex justify-evenly w-[700px]'>
+      <div className='  justify-evenly w-[700px] hidden  sm:flex'>
         <AiFillHome size={30} className='text-blue-500'/>
         <MdOndemandVideo size={30} className='text-blue-500'/>
         <CiShop size={30} className='text-blue-500'/>
