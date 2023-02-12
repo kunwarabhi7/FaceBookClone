@@ -11,7 +11,7 @@ import {RxAvatar} from 'react-icons/rx'
 
 const Header = () => {
   return (
-    <div className='flex justify-between  p-4 border border-x-0 border-t-0 border-white '>
+    <div className='flex justify-between  p-4 shadow-md shadow-white border-white '>
         {/* left */}
              <div className='flex '>
                 <BsFacebook className='text-blue-500   mt-1' size={30}/>
