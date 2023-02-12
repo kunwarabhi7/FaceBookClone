@@ -26,11 +26,11 @@ const Header = () => {
              </div>
              {/* center */}
       <div className='cursor-pointer justify-evenly items-center w-[700px] hidden  sm:flex'>
-        <AiFillHome size={30} className='text-blue-500 '/>
-        <MdOndemandVideo size={30} className='text-blue-500'/>
-        <CiShop size={30} className='text-blue-500'/>
-        <MdOutlineGroups size={30} className='text-blue-500 rounded-full border border-blue-500'/>
-        <RiGamepadLine size={30} className='text-blue-500'/>
+        <AiFillHome size={30} className='text-blue-500 hover:bg-gray-700 w-14 hover:h-10 '/>
+        <MdOndemandVideo size={30} className='text-blue-500 hover:bg-gray-700 w-14 hover:h-10'/>
+        <CiShop size={30} className='text-blue-500 hover:bg-gray-700 w-14 hover:h-10'/>
+        <MdOutlineGroups size={30} className='text-blue-500 rounded-full border border-blue-500 hover:bg-gray-700 w-14 hover:h-10'/>
+        <RiGamepadLine size={30} className='text-blue-500 hover:bg-gray-700 w-14 hover:h-10'/>
             </div>
       {/* right */}
       <div className='w-44 flex justify-evenly'>
