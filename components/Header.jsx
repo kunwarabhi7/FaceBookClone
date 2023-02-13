@@ -7,7 +7,7 @@ import {CgMenuGridR} from 'react-icons/cg'
 import {TbBrandMessenger} from 'react-icons/tb'
 import Link from 'next/link'
 import Image from 'next/image'
-import { useSession } from 'next-auth/react'
+import { useSession , signOut} from 'next-auth/react'
 
 
 
@@ -43,7 +43,7 @@ const Header = () => {
         <CgMenuGridR size={40} className='text-white hover:text-blue-500 cursor-pointer rounded-full p-2'/>
         <TbBrandMessenger size={40} className='text-white hover:text-blue-500 cursor-pointer rounded-full p-2'/>
         <RiNotification2Fill size={40} className='text-white p-2 bg-gray-500 hover:text-blue-500 rounded-full cursor-pointer'/>
-        <Image src={session.user.image} height={40} width={40} className='text-white hover:text-blue-500 bg-gray-500 cursor-pointer rounded-full p-2 ml-1' />
+        <Image onClick={signOut} src={session.user.image} height={20} width={38} className='text-white hover:text-blue-500 bg-gray-500 cursor-pointer rounded-full  ml-1' />
         </div>
     </div>
   )
