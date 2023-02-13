@@ -5,12 +5,15 @@ import {CiShop} from 'react-icons/ci'
 import {RiGamepadLine,RiNotification2Fill} from 'react-icons/ri'
 import {CgMenuGridR} from 'react-icons/cg'
 import {TbBrandMessenger} from 'react-icons/tb'
-import {RxAvatar} from 'react-icons/rx'
 import Link from 'next/link'
+import Image from 'next/image'
+import { useSession } from 'next-auth/react'
 
 
 
 const Header = () => {
+  const {data:  session} = useSession()
+
   return (
     <div className='flex justify-between   p-4 shadow-md shadow-white border-white '>
         {/* left */}
@@ -40,7 +43,7 @@ const Header = () => {
         <CgMenuGridR size={40} className='text-white hover:text-blue-500 cursor-pointer rounded-full p-2'/>
         <TbBrandMessenger size={40} className='text-white hover:text-blue-500 cursor-pointer rounded-full p-2'/>
         <RiNotification2Fill size={40} className='text-white p-2 bg-gray-500 hover:text-blue-500 rounded-full cursor-pointer'/>
-        <RxAvatar size={40} className='text-white hover:text-blue-500 bg-gray-500 cursor-pointer rounded-full p-2 ml-1' />
+        <Image src={session.user.image} height={40} width={40} className='text-white hover:text-blue-500 bg-gray-500 cursor-pointer rounded-full p-2 ml-1' />
         </div>
     </div>
   )
