@@ -10,6 +10,7 @@ const SideBar = () => {
 
 <SideBarComponents icon={<AiFillHome size={20}/>} title='Home' />
 <SideBarComponents image={session.user.image}  name={session.user.name}/>  
+<hr className='border-1 border-gray-100 mt-4 ' />
 <SideBarComponents icon={<AiFillHome />} title='Home' />
 <SideBarComponents icon={<AiFillHome />} title='Home' />
 <SideBarComponents icon={<AiFillHome />} title='Home' />

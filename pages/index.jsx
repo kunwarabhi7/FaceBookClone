@@ -19,8 +19,13 @@ return (
 <div className='bg-black text-white'>
   {/* Header  */}
 <Header/>
+<div className='w-full flex'>
+
 {/* Left SideBar  */}
 <SideBar />
+Main Feed
+
+</div>
   </div>    
   </>
   
