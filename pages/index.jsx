@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Head from 'next/head'
 import {getSession, useSession } from 'next-auth/react'
 import Login from '@/components/Login'
+import SideBar from '@/components/SideBar'
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ return (
   {/* Header  */}
 <Header/>
 {/* Left SideBar  */}
+<SideBar />
   </div>    
   </>
   
