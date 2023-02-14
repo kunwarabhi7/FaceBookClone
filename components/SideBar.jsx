@@ -9,7 +9,7 @@ import SideBarComponents from './SideBarComponents'
 const SideBar = () => {
   const {data:session,loading}  = useSession()
   return (
-    <div className='p-2 w-20 md:w-72'>
+    <div className='p-2 w-20 md:w-72 h-screen'>
 
 <SideBarComponents icon={<AiFillHome size={20}/>} title='Home' />
 <SideBarComponents image={session.user.image}  name={session.user.name}/>  
