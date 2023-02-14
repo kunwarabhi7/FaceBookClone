@@ -8,8 +8,8 @@ const SideBar = () => {
   return (
     <div className='p-2'>
 
-<SideBarComponents image={session.user.image}  title={session.user.name}/>  
-<SideBarComponents icon={<AiFillHome />} title='Home' />
+<SideBarComponents icon={<AiFillHome size={20}/>} title='Home' />
+<SideBarComponents image={session.user.image}  name={session.user.name}/>  
 <SideBarComponents icon={<AiFillHome />} title='Home' />
 <SideBarComponents icon={<AiFillHome />} title='Home' />
 <SideBarComponents icon={<AiFillHome />} title='Home' />
