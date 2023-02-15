@@ -5,13 +5,13 @@ import StoryComponent from './StoryComponent'
 
 const stories = [
   {
-    name: "Sonny Sangha",
-    src: "https://links.papareact.com/zof",
-    profile: "https://links.papareact.com/l4v",
+    name: "Abhishek Singh",
+    src: "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    profile: "https://images.unsplash.com/photo-1626301688449-1fa324d15bca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
   },
   {
     name: "Elon Musk",
-    src: "https://links.papareact.com/4zn",
+    src: "https://images.unsplash.com/photo-1621932971080-4f3c83c1c427?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
     profile: "https://links.papareact.com/kxk",
   },
   {
