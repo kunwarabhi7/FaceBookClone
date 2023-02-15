@@ -1,6 +1,7 @@
 import React from 'react'
 import {MdOutlineAutoStories} from 'react-icons/md'
 import {TfiInstagram} from 'react-icons/tfi'
+import InputSection from './InputSection';
 import StoryComponent from './StoryComponent'
 
 const stories = [
@@ -55,7 +56,9 @@ const Feed = () => {
 })}
       </div>
       {/* Input section */}
-      <div>Input section</div>
+      <div>
+        <InputSection />
+      </div>
       {/* Main Section */}
       <div>Feed Section</div>
     </div>
