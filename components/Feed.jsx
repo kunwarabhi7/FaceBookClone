@@ -34,9 +34,9 @@ const stories = [
 
 const Feed = () => {
   return (
-    <div className='w-48 md:w-[590px]  bg-[rgb(36,37,38)] md:ml-32 ml-16 mt-6'>
+    <div className='w-48 md:w-[590px]   md:ml-32 ml-16 mt-6'>
       {/* Top Section */}
-      <div className='flex h-18 justify-evenly p-8'>
+      <div className='flex bg-[rgb(36,37,38)] h-18 justify-evenly p-8'>
         <div className='flex w-70  border-b-2 border-blue-500'>
         <MdOutlineAutoStories size={40} className='text-blue-500 w-36' />
         <h1>Stories</h1>
@@ -47,7 +47,7 @@ const Feed = () => {
         </div>
       </div>
       {/* Stories */}
-      <div className='flex p-2 '>
+      <div className='flex p-2 bg-[rgb(36,37,38)]'>
 {stories.map((story)=>{
  return (
 
@@ -56,7 +56,7 @@ const Feed = () => {
 })}
       </div>
       {/* Input section */}
-      <div>
+      <div className='bg-[rgb(36,37,38)] rounded-md'>
         <InputSection />
       </div>
       {/* Main Section */}
