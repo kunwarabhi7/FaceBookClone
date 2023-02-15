@@ -23,18 +23,18 @@ e.preventDefault()
 </form>
         </div>
         <hr className='my-4 w-[550px]' />
-<div className='h-10 w-[558px] flex justify-evenly'>
-    <div className='flex items-center '>
+<div className='h-10 w-[558px] flex justify-evenly '>
+    <div className='flex items-center w-47 cursor-pointer hover:bg-[rgb(58,59,60)] p-2  h-10'>
 
     <TiVideo size={25} className='text-red-500 mr-2'/>
     <h1 >Live Video</h1>
     </div>
-    <div className='flex items-center'>
+    <div className='flex items-center w-47 cursor-pointer hover:bg-[rgb(58,59,60)] p-2  h-10'>
 
     <IoImages size={25} className='text-green-500' />
     <h1>Photo/video</h1>
     </div>
-    <div className='flex items-center'>
+    <div className='flex items-center w-47 cursor-pointer hover:bg-[rgb(58,59,60)] p-2  h-10'>
 
     <GoSmiley size={25} className='text-yellow-400' />
     <h1>Feeling/activity</h1>
