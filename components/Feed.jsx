@@ -1,6 +1,36 @@
 import React from 'react'
 import {MdOutlineAutoStories} from 'react-icons/md'
 import {TfiInstagram} from 'react-icons/tfi'
+import StoryComponent from './StoryComponent'
+
+const stories = [
+  {
+    name: "Sonny Sangha",
+    src: "https://links.papareact.com/zof",
+    profile: "https://links.papareact.com/l4v",
+  },
+  {
+    name: "Elon Musk",
+    src: "https://links.papareact.com/4zn",
+    profile: "https://links.papareact.com/kxk",
+  },
+  {
+    name: "Jeff Bezoz",
+    src: "https://links.papareact.com/k2j",
+    profile: "https://links.papareact.com/f0p",
+  },
+  {
+    name: "Mark Zuckerberg",
+    src: "https://links.papareact.com/xql",
+    profile: "https://links.papareact.com/snf",
+  },
+  {
+    name: "Bill Gates",
+    src: "https://links.papareact.com/4u4",
+    profile: "https://links.papareact.com/zvy",
+  },
+];
+
 const Feed = () => {
   return (
     <div className='w-[590px] bg-[rgb(36,37,38)] ml-32 mt-6'>
@@ -16,7 +46,14 @@ const Feed = () => {
         </div>
       </div>
       {/* Stories */}
-      <div>Story</div>
+      <div className='flex'>
+
+      <StoryComponent />
+      <StoryComponent />
+      <StoryComponent />
+      <StoryComponent />
+      <StoryComponent />
+      </div>
       {/* Input section */}
       <div>Input section</div>
       {/* Main Section */}
