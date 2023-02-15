@@ -47,12 +47,12 @@ const Feed = () => {
       </div>
       {/* Stories */}
       <div className='flex'>
+{stories.map((story)=>{
+ return (
 
-      <StoryComponent />
-      <StoryComponent />
-      <StoryComponent />
-      <StoryComponent />
-      <StoryComponent />
+   <StoryComponent name={story.name} profile={story.profile} src={story.src} />
+ ) 
+})}
       </div>
       {/* Input section */}
       <div>Input section</div>
