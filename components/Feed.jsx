@@ -46,11 +46,11 @@ const Feed = () => {
         </div>
       </div>
       {/* Stories */}
-      <div className='flex'>
+      <div className='flex p-2 '>
 {stories.map((story)=>{
  return (
 
-   <StoryComponent name={story.name} profile={story.profile} src={story.src} />
+   <StoryComponent key={story.id} name={story.name} profile={story.profile} src={story.src} />
  ) 
 })}
       </div>
